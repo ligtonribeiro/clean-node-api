@@ -1,0 +1,36 @@
+{
+  "name": "clean-node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "lint-staged": {
+    "*.js": [
+      "standart --fix"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ligtonribeiro/clean-node-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ligtonribeiro/clean-node-api/issues"
+  },
+  "homepage": "https://github.com/ligtonribeiro/clean-node-api#readme",
+  "devDependencies": {
+    "husky": "^7.0.1",
+    "jest": "^27.0.6",
+    "lint-staged": "^11.1.1",
+    "standart": "^6.1.0"
+  }
+}
