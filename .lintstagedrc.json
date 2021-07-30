@@ -1,6 +1,6 @@
 {
-    "*.js": [
-        "./node_modules/.bin/standard --fix",
-        "git add"
-    ]
+  "*.js": [
+    "./node_modules/.bin/standard --fix",
+    "git add"
+  ]
 }
