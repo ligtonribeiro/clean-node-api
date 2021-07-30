@@ -6,16 +6,16 @@
   "scripts": {
     "test": "jest"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "*.js": [
       "npx standard --fix",
       "git add"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npx lint-staged"
-    }
   },
   "repository": {
     "type": "git",
