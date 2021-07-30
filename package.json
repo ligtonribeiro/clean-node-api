@@ -6,17 +6,6 @@
   "scripts": {
     "test": "jest"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.js": [
-      "./node_modules/.bin/standard --fix",
-      "git add"
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ligtonribeiro/clean-node-api.git"
