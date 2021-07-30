@@ -1,3 +1,5 @@
-function teste () {
-  return {}
+function teste() {
+  return {
+
+  }
 }
